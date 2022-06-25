@@ -75,5 +75,5 @@ schedule({
 })
 ```
 
-Then, before I finally boot my ExpressJS application, I call out for `require("cronjob").activate()` to activate all of my defined cronjobs. That's it.
+Then, before I finally boot my ExpressJS application, I call out for `require("cron").activate()` to activate all of my defined cronjobs. That's it.
 
