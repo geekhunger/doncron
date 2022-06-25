@@ -1,6 +1,6 @@
 {
   "name": "doncron",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "node-cron but with better timestamp syntax",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   "author": "geekhunger <hallo@geekhunger.de>",
   "license": "MIT",
   "dependencies": {
-    "node-cron": "^3.0.1"
+    "node-cron": "^3.0.1",
+    "type-approve": "^0.3.0"
   }
 }
