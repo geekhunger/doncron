@@ -51,7 +51,7 @@ You can define your cronjobs where and however you like, but I prefer to have a 
 const process = require("process")
 const masternode = new RegExp("(master|primary|manager|lead|main)", "i").test(process.env.name)
 
-const {time, weekday, month, schedule} = module.exports = require("schedule") // NOTE the `module.exports` here!
+const {time, weekday, month, schedule} = module.exports = require("doncron") // NOTE the `module.exports` here!
 
 schedule({
     name: "Backup all of my databases",

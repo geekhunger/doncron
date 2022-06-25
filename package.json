@@ -1,6 +1,6 @@
 {
   "name": "doncron",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "node-cron but with better timestamp syntax",
   "main": "index.js",
   "scripts": {
