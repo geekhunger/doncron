@@ -1,10 +1,14 @@
 {
   "name": "doncron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node-cron but with better timestamp syntax",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:geekhunger/doncron.git"
   },
   "keywords": [
     "cron",
@@ -16,5 +20,8 @@
     "expressjs"
   ],
   "author": "geekhunger <hallo@geekhunger.de>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-cron": "^3.0.1"
+  }
 }
