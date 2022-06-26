@@ -8,7 +8,7 @@ This is where this module comes into play... It consits of two parts. Part No.1 
 
 The timestamp parser offers you a much simpler but more powerful syntax for defining your cronjob timer by using the fallowing functions:
 
-- `month(day, ...months)` for running monthly routines, which allows you to select the month and a day of the 
+- `month(day, ...months)` for running monthly routines, which allows you to select the month and a day of the execution.
 - `weekday(...weekdays)` for running weekly tasks, which allows you to select the day of the week of job execution.
 - `time(hour, minute, second)` for running daily jobs, which allows you to select an hour, minute and second of the job execution.
 
@@ -76,4 +76,7 @@ schedule({
 ```
 
 Then, before I finally boot my ExpressJS application, I call out for `require("cron").activate()` to activate all of my defined cronjobs. That's it.
+
+Oh, and if you use something like [SeppukuJS](https://www.npmjs.com/package/seppukujs) to gracefully kill your application, then you can also use `require("cron").deactivate()` too, to stop and clear all of your queued cronjobs.s
+
 
